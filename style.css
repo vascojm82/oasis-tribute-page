@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	color: white;
+	background-color: black;
+}
+
+.heading{
+	text-align: center;
+}
+
+.img-container {
+   max-width:100%;
+   padding: 0;
+}
+
+.main{
+   margin-left: 6em;
+   margin-right: 6em;
+}
+
+.bio, .albums, .video-container{
+   margin-top:3em;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  align-self: center;
+}
